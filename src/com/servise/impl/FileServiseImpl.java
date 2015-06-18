@@ -162,13 +162,17 @@ public class FileServiseImpl implements FileService {
     }
 
     /**
-     * Returns list of files
+     * Returns list of file names
      * @return      count of files
      */
     public List<String> getFileList() {
         return  targetFileList;
     }
 
+    /**
+     * Returns list of directory names
+     * @return      count of files
+     */
     public List<String> getDirectoryList() {
         return  targetDirectoryList;
     }
