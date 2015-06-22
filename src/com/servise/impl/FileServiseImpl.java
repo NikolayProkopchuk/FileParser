@@ -148,6 +148,7 @@ public class FileServiseImpl implements FileService {
     /**
      * Returns count of directories
      * @return      count of directories
+     * new commit
      */
     public int getDirCount() {
         return  dirCount;
